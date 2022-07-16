@@ -15,11 +15,10 @@
         https://github.com/AJLindner/O365EmailAttachments
 
         There is an article associated with this script:
-        <linkedin article here>
+        https://www.linkedin.com/pulse/automatically-download-attachments-from-office-365-graph-aj-lindner/
 #>
 
-
-# Connect to Azure with a self-signed certificate in the local user store
+# Connect to Azure with a certificate in the local computer store
 $CertificateThumbprint = "DB67338C234E5B72531BE069CFA1EF289267EC1D"
 $Certificate = Get-ChildItem "cert:\LocalMachine\My\$CertificateThumbprint"
 
